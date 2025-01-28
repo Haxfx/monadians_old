@@ -1,0 +1,72 @@
+.aboutimage img {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    width: 150%;
+    text-align: center;
+    display: block; /* Ensures the image behaves as a block element */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto; /* Centers the image horizontally */
+}
+.aboutTitle{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 200!important;
+}
+.wrapperall{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.tab-button_mobile {
+    font-family: "Poppins", sans-serif!important;
+    font-weight: 200!important;
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
+    justify-content: center; /* Center-align the buttons horizontally */
+}
+.tab-button_mobile {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    margin-bottom: 3%;
+}
+  
+.tab-button_mobile:hover {
+    color: #ffffff; /* Change text color on hover */
+  }
+  
+.firstabout img{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutTitle img{
+    
+        margin-bottom:5%;
+        max-width:300px;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+}
+
+.v1_about_us_left_sect {
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align:center;
+    max-width: 400px;
+    width: 100%;
+   
+  }
+
+  .v1_about_us_left_sect img{
+    max-width:180%;
+  }
